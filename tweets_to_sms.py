@@ -6,10 +6,6 @@ from twilio.rest import Client
 # To set your enviornment variables in your terminal run the following line:
 # export 'BEARER_TOKEN'='<your_bearer_token>'
 
-account_sid = 'ACabf6bf3d46e8c2f5e6fd08db8fe8bba8'
-
-auth_token = 'b5f9af7e99e75a414e4589f39f74789c'
-
 client = Client(account_sid, auth_token)
 
 
