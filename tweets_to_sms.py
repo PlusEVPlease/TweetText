@@ -4,7 +4,18 @@ import json
 from twilio.rest import Client
 
 # To set your enviornment variables in your terminal run the following line:
+
+account_sid = os.environ['account_sid']
+auth_token = os.environ['auth_token']
+bearer_token = os.environ['BEARER_TOKEN']
+
 # export 'BEARER_TOKEN'='<your_bearer_token>'
+
+#account_sid = https://www.twilio.com/console
+
+#auth_token = https://www.twilio.com/console
+
+#BEARER_TOKEN= https://developer.twitter.com/en/portal/projects/1364711102546853894/apps/20209017/keys
 
 client = Client(account_sid, auth_token)
 
